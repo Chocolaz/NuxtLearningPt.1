@@ -12,5 +12,5 @@ export default defineNuxtConfig({
   alias: {
     assets: '/<rootDir>/assets'
   },
-  modules: ['@nuxt/content']
+  modules: ['@nuxt/content', '@pinia/nuxt']
 })

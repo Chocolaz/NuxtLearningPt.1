@@ -1,9 +1,14 @@
+<script setup lang="ts">
+const counter = useCounter()
+</script>
+
 <template>
-  <div class="container py-3 mx-auto Main">
-    <ContentDoc />
+  <div>
+    <div id="main">
+      Counter: {{ counter }}
+      <button @click="counter++">+</button>
+      <button @click="counter--">-</button>
+    </div>
+    <Counter id="counter" />
   </div>
 </template>
-
-<script setup lang="ts">
-definePageMeta({ middleware: 'auth' })
-</script>
