@@ -8,5 +8,8 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {}
     }
+  },
+  alias: {
+    assets: '/<rootDir>/assets'
   }
 })
