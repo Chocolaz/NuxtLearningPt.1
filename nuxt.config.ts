@@ -11,5 +11,6 @@ export default defineNuxtConfig({
   },
   alias: {
     assets: '/<rootDir>/assets'
-  }
+  },
+  modules: ['@nuxt/content']
 })
