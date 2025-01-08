@@ -1,11 +1,8 @@
 <template>
   <NuxtLayout>
-    <div class="bg-slate-200 h-screen">
-      <Header />
-      <main class="container mx-auto p-4">
-        <NuxtPage />
-      </main>
-    </div>
+    <main>
+      <NuxtPage />
+    </main>
   </NuxtLayout>
 </template>
 
