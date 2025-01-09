@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999.99,
+      "description": "A high-performance laptop for all your computing needs.",
+      "category": "Electronics",
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 699.99,
+      "description": "A latest-generation smartphone with cutting-edge features.",
+      "category": "Electronics",
+      "stock": 100
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 199.99,
+      "description": "Noise-cancelling headphones for an immersive audio experience.",
+      "category": "Accessories",
+      "stock": 200
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "price": 49.99,
+      "description": "A compact coffee maker for your daily caffeine fix.",
+      "category": "Home Appliances",
+      "stock": 75
+    },
+    {
+      "id": 5,
+      "name": "Running Shoes",
+      "price": 89.99,
+      "description": "Comfortable and durable running shoes for all terrains.",
+      "category": "Footwear",
+      "stock": 150
+    }
+  ]
+}
